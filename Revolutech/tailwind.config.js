@@ -25,7 +25,9 @@ export default {
         'gray': '#58595B',
         'green': '#00A159',
         'neg': '#ED4A2C'
-
+      },
+      backgroundImage: {
+        'celular': 'url(assets/celular2.png)',
       }
     },
   },

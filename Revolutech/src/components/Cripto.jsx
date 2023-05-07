@@ -9,6 +9,8 @@ import graf5 from '../assets/graf5.svg'
 import graf6 from '../assets/graf6.svg'
 import graf7 from '../assets/graf7.svg'
 
+import { BsArrowRightSquare } from 'react-icons/bs'
+
 const Cripto = () => {
     
   return (
@@ -98,7 +100,10 @@ const Cripto = () => {
             </div>
         </div>
 
-        <p className='text-gray ml-[10%] mt-10'>explore todas as 82 criptomoedas dísponiveis</p>
+        <p className='text-gray ml-[10%] mt-10 flex items-center gap-3 underline-offset-2 underline hover:underline-offset-4 transition-all duration-100 cursor-pointer'>
+            explore todas as 82 criptomoedas dísponiveis
+            <BsArrowRightSquare />
+        </p>
     </div>
   )
 }
