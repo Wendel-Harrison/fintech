@@ -5,7 +5,7 @@ import info3 from '../assets/info3.svg'
 
 const Informacoes = () => {
   return (
-    <div className='bg-red1 mx-auto pb-10 '>
+    <div className='bg-red1 mx-auto pb-28 pt-[7%] '>
         <div className='w-[90%] mx-auto h-full flex gap-[5%]'>
             <div className='w-[30%] h-full  pl-[2%] pt-[5.7%] '>
                 <img src={info1} alt="" />
