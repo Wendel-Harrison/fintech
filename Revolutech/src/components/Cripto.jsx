@@ -5,7 +5,7 @@ import axios from 'axios'
 const Cripto = () => {
     
   return (
-    <div>
+    <div className='w-4/5 mx-auto'>
         <div>
             <h2>Moeda</h2>
             <p>Bitcoin</p>
