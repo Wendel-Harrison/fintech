@@ -97,6 +97,8 @@ const Cripto = () => {
                 </div>
             </div>
         </div>
+
+        <p className='text-gray ml-[10%] mt-10'>explore todas as 82 criptomoedas dísponiveis</p>
     </div>
   )
 }
