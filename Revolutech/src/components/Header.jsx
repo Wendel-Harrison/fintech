@@ -4,7 +4,10 @@ const Header = () => {
   return (
     <div className='font-inter flex justify-between items-center px-14 py-2 bg-[#f2f2f2]'>
         <div>
-            <h1 className=' text-red font-semibold text-xl hover:text-red1 transition-all duration-200 hover:scale-110 active:translate-y-2'>RevoluTech</h1>
+            <h1 className=' text-red font-semibold text-xl hover:text-red1 transition-all duration-200 hover:scale-110 active:translate-y-2'>
+              
+              RevoluTech
+            </h1>
         </div>
         <div className='flex gap-5'>
             <h2 className='text-gray text-sm hover:text-black transition-all duration-150 hover:scale-110 hover:font-medium'>Aplicativo Mobile</h2>

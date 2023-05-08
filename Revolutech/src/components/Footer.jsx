@@ -4,6 +4,8 @@ import { RiLinkedinFill } from 'react-icons/ri'
 import { FaFacebookF, FaTelegramPlane } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
 
+import { Link } from 'react-router-dom'
+
 import visa from '../assets/visa.png'
 import master from '../assets/master.png'
 import master2 from '../assets/master2.png'
@@ -20,11 +22,22 @@ const Footer = () => {
         </h1>
 
         <div className='flex gap-3 mt-3 justify-center '>
-            <AiFillInstagram className='py-1 px-1 text-2xl text-[#5c0000] bg-white rounded-full hover:scale-150 hover:bg-[#5c0000] hover:text-white transition-all duration-200'/>
-            <BsTwitter className='py-1 px-1 text-2xl text-[#5c0000] bg-white rounded-full hover:scale-150 hover:bg-[#5c0000] hover:text-white transition-all duration-200'/>
-            <RiLinkedinFill className='py-1 px-1 text-2xl text-[#5c0000] bg-white rounded-full hover:scale-150 hover:bg-[#5c0000] hover:text-white transition-all duration-200'/>
-            <FaFacebookF className='py-1 px-1 text-2xl text-[#5c0000] bg-white rounded-full hover:scale-150 hover:bg-[#5c0000] hover:text-white transition-all duration-200'/>
-            <FaTelegramPlane className='py-1 px-1 text-2xl text-[#5c0000] bg-white rounded-full hover:scale-150 hover:bg-[#5c0000] hover:text-white transition-all duration-200'/>
+            <a href="https://instagram.com/w_harrison17" target='_blank'>
+                <AiFillInstagram className='py-1 px-1 text-2xl text-[#5c0000] bg-white rounded-full hover:scale-150 hover:bg-[#5c0000] hover:text-white transition-all duration-200'/>
+            </a>
+            
+            <a href="htpps://twitter.com" target='_blank'>
+                <BsTwitter className='py-1 px-1 text-2xl text-[#5c0000] bg-white rounded-full hover:scale-150 hover:bg-[#5c0000] hover:text-white transition-all duration-200'/>
+            </a>
+            <a href="https://linkedin.com/in/wendel17" target='_blank'>
+                <RiLinkedinFill className='py-1 px-1 text-2xl text-[#5c0000] bg-white rounded-full hover:scale-150 hover:bg-[#5c0000] hover:text-white transition-all duration-200'/>
+            </a>
+            <a href="https://facebook.com" target='_blank'>
+                <FaFacebookF className='py-1 px-1 text-2xl text-[#5c0000] bg-white rounded-full hover:scale-150 hover:bg-[#5c0000] hover:text-white transition-all duration-200'/>
+            </a>
+            <a href="https://web.telegram.org" target='_blank'>
+                <FaTelegramPlane className='py-1 px-1 text-2xl text-[#5c0000] bg-white rounded-full hover:scale-150 hover:bg-[#5c0000] hover:text-white transition-all duration-200'/>
+            </a>
         </div>
 
         <div className='flex gap-5 mt-8 justify-center'>
