@@ -8,10 +8,10 @@ const Informacoes = () => {
     <div className='bg-red1 mx-auto pb-28 pt-[7%] '>
         <div className='w-[90%] mx-auto h-full flex gap-[5%]'>
             <div className='w-[30%] h-full  pl-[2%] pt-[5.7%] '>
-                <img src={info1} alt="" />
+                <img src={info1} className="hover:invert transition-all duration-500" alt="" />
 
                 <h2 className='text-white font-bold text-2xl mb-[4.5rem] mt-7'>
-                    <span className='bg-white text-black px-2  mr-1'>Fácil</span>
+                    <span className='bg-white text-black px-2  mr-1 hover:invert transition-all duration-300'>Fácil</span>
                      de negociar
                 </h2>
 
@@ -20,10 +20,10 @@ const Informacoes = () => {
                 <p className='text-white pt-2 font-medium pb-5'>saque direto para sua conta bancária</p>
             </div>
             <div className='w-[30%] h-full pl-[2%] pt-[5%]'>
-                <img src={info2} alt="" />
+                <img src={info2} className="hover:invert transition-all duration-500" alt="" />
 
                 <h2 className='text-white font-bold text-2xl mb-10 mt-7'>
-                <span className='bg-white text-black px-2  mr-1'>Segurança extrema</span> <br />
+                <span className='bg-white text-black px-2  mr-1 hover:invert transition-all duration-300'>Segurança extrema</span> <br />
                     de serviços
                 </h2>
 
@@ -33,10 +33,10 @@ const Informacoes = () => {
             </div>
 
             <div className='w-[30%] h-full  pl-[2%] pt-[5%]'>
-                <img src={info3} alt="" />
+                <img src={info3} className="hover:invert transition-all duration-500" alt="" />
 
                 <h2 className='text-white font-bold text-2xl mb-10 mt-7'>
-                <span className='bg-white text-black px-2  mr-1'>Confiabilidade </span> <br />
+                <span className='bg-white text-black px-2  mr-1 hover:invert transition-all duration-300'>Confiabilidade </span> <br />
                     comprovada
                 </h2>
 

@@ -77,25 +77,25 @@ const Cripto = () => {
             <div className='w-[19%] ml-[1%] text-center'>
                 <h2 className='border-b border-gray/40 pb-6 pt-2 text-sm text-gray font-medium '>Compre</h2>
                 <div className='border-b border-gray/40 pt-2.5 pb-2.5'>
-                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm'>Compre BTC</button>
+                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm hover:bg-gray/10 hover:text-red transition-all duration-200'>Compre BTC</button>
                 </div>
                 <div className='border-b border-gray/40 pt-2.5 pb-2.5'>
-                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm'>Compre ETH</button>
+                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm hover:bg-gray/10 hover:text-red transition-all duration-200'>Compre ETH</button>
                 </div>
                 <div className='border-b border-gray/40 pt-2.5 pb-2.5'>
-                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm'>Compre XRP</button>
+                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm hover:bg-gray/10 hover:text-red transition-all duration-200'>Compre XRP</button>
                 </div>
                 <div className='border-b border-gray/40 pt-2.5 pb-2.5'>
-                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm'>Compre ADA</button>
+                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm hover:bg-gray/10 hover:text-red transition-all duration-200'>Compre ADA</button>
                 </div>
                 <div className='border-b border-gray/40 pt-2.5 pb-2.5'>
-                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm'>Compre DOGE</button>
+                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm hover:bg-gray/10 hover:text-red transition-all duration-200'>Compre DOGE</button>
                 </div>
                 <div className='border-b border-gray/40 pt-2.5 pb-2.5'>
-                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm'>Compre MATIC</button>
+                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm hover:bg-gray/10 hover:text-red transition-all duration-200'>Compre MATIC</button>
                 </div>
                 <div className='border-b border-gray/40 pt-2.5 pb-2.5'>
-                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm'>Compre SOL</button>
+                    <button className=' py-2 rounded-md w-4/5 mx-auto  text-black font-medium bg-white drop-shadow-md text-sm hover:bg-gray/10 hover:text-red transition-all duration-200'>Compre SOL</button>
                 </div>
             </div>
         </div>
