@@ -10,11 +10,14 @@ import master2 from '../assets/master2.png'
 import apay from '../assets/apay.png'
 import gpay from '../assets/gpay.png'
 import paypal from '../assets/paypal.png'
+import Logo from '../assets/logo.svg'
 
 const Footer = () => {
   return (
     <div className='bg-[#5C0000]'>
-        <h1 className='text-center text-2xl text-white font-semibold pt-20 animate-bounce'>RevoluTech</h1>
+        <h1 className='text-center text-2xl text-white font-semibold pt-10 animate-bounce flex justify-center'>
+            <img src={Logo} className='w-1/12 invert' alt="" />
+        </h1>
 
         <div className='flex gap-3 mt-3 justify-center '>
             <AiFillInstagram className='py-1 px-1 text-2xl text-[#5c0000] bg-white rounded-full hover:scale-150 hover:bg-[#5c0000] hover:text-white transition-all duration-200'/>
