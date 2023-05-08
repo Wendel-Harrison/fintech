@@ -5,6 +5,8 @@ import Cripto from './components/Cripto'
 import Informacoes from './components/Informacoes'
 import Globo from './components/Globo'
 import Negocie from './components/Negocie'
+import Investir from './components/Investir'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -15,7 +17,8 @@ const App = () => {
       <Informacoes />
       <Globo />
       <Negocie />
-
+      <Investir />
+      <Footer />
     </>
   )
 }
